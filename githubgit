@@ -1,0 +1,131 @@
+PS C:\Users\ADMIN\Documents\javascript> git init
+Initialized empty Git repository in C:/Users/ADMIN/Documents/javascript/.git/
+PS C:\Users\ADMIN\Documents\javascript> git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+PS C:\Users\ADMIN\Documents\javascript> git commit -m "initial commit"
+On branch main
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)       
+        chapter1/
+        chapter10/
+        chapter11/
+        chapter2/
+        chapter5/
+        chapter6/
+        chapter7/
+        chapter8/
+        chapter9/
+        tictactoe/
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\ADMIN\Documents\javascript> git remote add origin https://github.com/SahasraGundu/JavaScript.git
+remote : The term 'remote' is not recognized as the name of a cmdlet,  
+function, script file, or operable program. Check the spelling of the  
+try again.
+At line:1 char:1
++ remote -v
+    + CategoryInfo          : ObjectNotFound: (remote:String) [], Com  
+   mandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+PS C:\Users\ADMIN\Documents\javascript> git remote -v
+origin  https://github.com/SahasraGundu/JavaScript.git (fetch)
+origin  https://github.com/SahasraGundu/JavaScript.git (push)
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/SahasraGundu/JavaScript.git'
+PS C:\Users\ADMIN\Documents\javascript> git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/SahasraGundu/JavaScript.git'
+PS C:\Users\ADMIN\Documents\javascript> git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/SahasraGundu/JavaScript.git'
+PS C:\Users\ADMIN\Documents\javascript> git commit -m "initial commit" 
+On branch main
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)       
+        chapter1/
+        chapter10/
+        chapter11/
+PS C:\Users\ADMIN\Documents\javascript> git init
+Reinitialized existing Git repository in C:/Users/ADMIN/Documents/javascript/.git/
+PS C:\Users\ADMIN\Documents\javascript> git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+PS C:\Users\ADMIN\Documents\javascript> git add .
+PS C:\Users\ADMIN\Documents\javascript> git commit -m "initial commit"
+[main (root-commit) 2c572e3] initial commit
+ 51 files changed, 2821 insertions(+)  
+ create mode 100644 chapter1/first.html
+ create mode 100644 chapter1/first.js
+ create mode 100644 chapter1/notes.html
+ create mode 100644 chapter10/first.css
+ create mode 100644 chapter10/first.html
+ create mode 100644 chapter10/first.js
+ create mode 100644 chapter10/notes.html
+ create mode 100644 chapter11/first.css
+ create mode 100644 chapter11/first.html
+ create mode 100644 chapter11/first.js
+ create mode 100644 chapter11/notes.html
+ create mode 100644 chapter2/first.html
+ create mode 100644 chapter2/first.js
+ create mode 100644 chapter2/notes.html
+ create mode 100644 chapter3/first.html
+ create mode 100644 chapter3/first.js
+ create mode 100644 chapter3/notes.html
+ create mode 100644 chapter4/first.html
+ create mode 100644 chapter4/first.js
+ create mode 100644 chapter4/notes.html
+ create mode 100644 chapter5/first.html
+ create mode 100644 chapter5/first.js
+ create mode 100644 chapter5/notes.html
+ create mode 100644 chapter6/first.css
+ create mode 100644 chapter6/first.html
+ create mode 100644 chapter6/first.js
+ create mode 100644 chapter6/notes.html
+ create mode 100644 chapter6/ps1.css
+ create mode 100644 chapter6/ps1.html
+ create mode 100644 chapter6/ps1.js
+ create mode 100644 chapter7/first.css
+ create mode 100644 chapter7/first.html
+ create mode 100644 chapter7/first.js
+ create mode 100644 chapter7/notes.html
+ create mode 100644 chapter7/ps1.css
+ create mode 100644 chapter7/ps1.html
+ create mode 100644 chapter7/ps1.js
+ create mode 100644 chapter8/first.css
+ create mode 100644 chapter8/first.html
+ create mode 100644 chapter8/first.js
+ create mode 100644 chapter8/ps1.html
+ create mode 100644 chapter9/first.css
+ create mode 100644 chapter9/first.html
+ create mode 100644 chapter9/notes.html
+ create mode 100644 tictactoe/notes.html
+ create mode 100644 tictactoe/tictactoe.css
+ create mode 100644 tictactoe/tictactoe.html
+ create mode 100644 tictactoe/tictactoe.js
+PS C:\Users\ADMIN\Documents\javascript> git remote add origin https://github.com/SahasraGundu/JavaScript
+error: remote origin already exists.
+PS C:\Users\ADMIN\Documents\javascript> git remote -v
+origin  https://github.com/SahasraGundu/JavaScript.git (fetch)
+origin  https://github.com/SahasraGundu/JavaScript.git (push)
+PS C:\Users\ADMIN\Documents\javascript> git push origin main
+Enumerating objects: 56, done.
+Counting objects: 100% (56/56), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (55/55), done.
+Writing objects: 100% (56/56), 22.92 KiB | 601.00 KiB/s, done.
+Total 56 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/SahasraGundu/JavaScript.git
+ * [new branch]      main -> main
+PS C:\Users\ADMIN\Documents\javascript> 
