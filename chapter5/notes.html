@@ -1,0 +1,116 @@
+<!--
+Functions & Methods
+
+Functions in JS:
+
+Block of code that performs a specific task, 
+can be invoked whenever needed
+
+
+function is just like a blackbox which takes 
+input and give output
+
+
+Function Definition:
+function functionName( ) {
+//do some work(block of code)
+}
+
+function functionName( param1, param2 ...) {
+//do some work
+}
+parameters--like local variables of function.block scope
+
+Function Call:
+functionName( );
+
+
+Arrow Functions:
+Compact way of writing a function
+
+const functionName = ( param1, param2 ...) => {
+//do some work
+}
+
+const sum = ( a, b ) => {
+return a + b;
+}
+
+
+forEach Loop in Arrays:
+arr.forEach( callBackFunction )
+CallbackFunction : Here, it is a 
+function to execute for each element in the array.
+*A callback is a function passed 
+as an argument to another function.
+
+arr.forEach( ( val ) => {
+console.log(val);
+})
+higher order functions/methods:
+that either take another function as parameter inside them
+or they return another function as output
+
+
+Some More Array Methods
+
+map:
+Creates a new array with the results of some operation. The value its callback returns are
+used to form new array
+arr.map( callbackFnx( value, index, array ) )
+
+let newArr = arr.map( ( val ) => {
+return val * 2;
+} )
+
+
+Some More Array Methods
+
+Filter
+Eg: all even elements
+Creates a new array of elements that give true for a condition/filter.
+
+
+let newArr = arr.filter( ( ( val ) => {
+return val % 2 === 0;
+} )
+
+which elements satisfy the condition goes and stores in a new array
+
+
+
+Some More Array Methods
+
+Reduce:
+Performs some operations & reduces the array to a single value. It returns
+that single value.
+
+const array1=[1,2,3,4];
+
+const initialValue=0;
+const sumWithInitial=array1.reduce(
+(accumulator,currentValue)=> accumulator+currentValue,initialValue,
+);
+console.log(sumWithInitial);
+
+iterates over the array and calculates the sum 
+and the sum is stored in the array
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->

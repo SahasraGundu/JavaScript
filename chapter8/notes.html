@@ -1,0 +1,69 @@
+<!--
+Events in JS:
+
+Events in JS
+
+Events are fired to notify code of "interesting changes" that may affect code execution.
+The change in the state of an object is known as an Event
+
+Mouse events (click, double click etc.)
+Keyboard events (keypress, keyup, keydown)
+Form events (submit etc.)
+Print event & many more
+
+this is all inline events .using these makes html
+code very big so we use event handling in js
+
+Event Handling in JS:
+
+node.event = ( ) => {
+//handle here
+}
+
+inline handling and js handling both are written 
+---priority is given to js handling
+
+ex:
+btn.onclick = ( ) => {
+console.log(“btn was clicked”);
+}
+//only one times we can do so we use event listenres 
+
+
+
+Event Object:
+
+It is a special object that has details 
+about the event.
+All event handlers have access to the Event Object's 
+properties and methods.
+
+node.event = (e) => {
+//handle here
+}
+
+e.target, e.type, e.clientX, e.clientY
+
+
+
+Event Listeners:(it is like a function)
+
+node.addEventListener( event, callback )
+node.removeEventListener( event, callback )
+*Note : the callback reference should be same to remove
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->

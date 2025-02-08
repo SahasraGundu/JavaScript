@@ -1,0 +1,18 @@
+/* h1{
+    color: blue;
+    text-decoration: line-through;
+    background-color: yellow;
+} */
+#heading{
+    color: blue;
+    text-decoration: line-through;
+    background-color: yellow;
+}
+.head{
+    color: blue;
+    background-color: yellow;
+}
+
+body{
+    background-color: pink;
+}
